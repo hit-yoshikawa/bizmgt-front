@@ -9,21 +9,12 @@
       sm8
       md6
     >
-      <v-btn flat @click="login">
-        ログイン
-      </v-btn>
+      企業
     </v-flex>
   </v-layout>
 </template>
 
 <script>
 export default {
-  layout: 'nologin',
-  methods: {
-    login: function () {
-      // ログイン処理
-      this.$router.push('/home')
-    }
-  }
 }
 </script>
