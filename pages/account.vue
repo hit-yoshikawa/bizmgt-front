@@ -9,20 +9,20 @@
       sm8
       md6
     >
-      <v-btn flat @click="login">
-        ログイン
-      </v-btn>
+      <div>
+        <v-btn flat @click="user">
+          ユーザー
+        </v-btn>
+      </div>
     </v-flex>
   </v-layout>
 </template>
 
 <script>
 export default {
-  layout: 'nologin',
   methods: {
-    login: function () {
-      // ログイン処理
-      this.$router.push('/home')
+    user: function () {
+      this.$router.push('/user')
     }
   }
 }
