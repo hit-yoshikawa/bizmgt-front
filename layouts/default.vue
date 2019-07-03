@@ -1,7 +1,9 @@
 <template>
   <v-app dark>
     <v-toolbar>
-      <v-toolbar-title @click="home">BIZMGT</v-toolbar-title>
+      <v-toolbar-title @click="home">
+        BIZMGT
+      </v-toolbar-title>
       <v-spacer />
       <v-toolbar-items>
         <v-btn flat @click="counting">
